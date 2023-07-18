@@ -13,17 +13,6 @@ function App() {
     setCount(prevCount => prevCount - 1)
   }
 
-  // Count renders with useEffect
-
-  const [ renders, setRenders ] = useState(0)
-
-  // useEffect(() => {
-  //   setRenders(prevRenders => prevRenders + 1)
-  //   console.log(renders)
-  // })
-
-  // ! Initial render triggers useEffect, triggers count, triggers useEffect... (infinite loop)
-
   return (
     <div className='main-container'>
       <div>
