@@ -1,0 +1,16 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button, span {
+  padding: 8px;
+  font-size: 18pt;
+}
